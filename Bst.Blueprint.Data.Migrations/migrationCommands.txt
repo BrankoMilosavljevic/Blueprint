@@ -1,0 +1,3 @@
+﻿EntityFrameworkCore\Add-Migration -Project Bst.Blueprint.Data.Migrations -StartUpProject Bst.Blueprint.Api -Context BlueprintContext -Name TODO
+
+EntityFrameworkCore\Update-Database -Project Bst.Blueprint.Data.Migrations -StartUpProject Bst.Blueprint.Api -Context BlueprintContext
